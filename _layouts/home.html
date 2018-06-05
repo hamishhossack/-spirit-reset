@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="uk-container uk-container-small">
+
+    <h2 class="uk-text-center uk-margin-large-bottom">Starts 7:30pm</h2>
+
+    {% for post in paginator.posts %}
+    <article class="uk-article uk-grid uk-flex">
+        <h2 class="uk-article-title uk-flex-extend"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+        <div class="uk-article-excerpt uk-flex-1">{{ post.excerpt }}</div>
+    </article>
+    {% endfor %}
+
+    <h2 class="uk-text-center uk-margin-large-top">Ends 10:00pm</h2>
+
+    {% include paginate.html %}
+
+</div>

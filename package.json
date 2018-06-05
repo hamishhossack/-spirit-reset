@@ -1,0 +1,24 @@
+{
+  "name": "spirit-reset",
+  "version": "1.0.0",
+  "description": "Spiritual home of dance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy": "ncp node_modules/uikit/src/scss/ _sass/uikit/ & ncp node_modules/uikit/dist/js/uikit.min.js assets/js/uikit.min.js & ncp node_modules/uikit/dist/js/uikit-icons.min.js assets/js/uikit-icons.min.js",
+    "postinstall": "npm run copy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/"
+  },
+  "author": "Hamish Hossack",
+  "license": "MIT",
+  "homepage": "https://spiritreset.hamishhossack.co.uk/",
+  "dependencies": {
+    "uikit": "^3.0.0-rc.2"
+  },
+  "devDependencies": {
+    "ncp": "latest"
+  }
+}

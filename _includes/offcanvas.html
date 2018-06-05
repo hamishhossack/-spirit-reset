@@ -1,0 +1,31 @@
+<div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar uk-text-center">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        <ul class="uk-nav uk-nav-default">
+            <li><a class="uk-logo" href="{{ "/" | relative_url }}">{% if site.logo %}<img src="{% if site.logo contains 'http' %}{{ site.logo }}{% else %}{{ site.img_assets | absolute_url }}{{ site.logo }}{% endif %}">{% else %}{{ site.logo_text }}{% endif %}</a></li>
+            {% for link in site.data.navigation_header.left %}
+                {% if link.url contains 'http' %}
+                    {% assign domain = '' %}
+                {% else %}
+                    {% assign domain = site.url %}
+                {% endif %}
+            <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" {% endif %}>{{ link.title }}</a></li>
+            {% endfor %}
+            {% for link in site.data.navigation_header.right %}
+                {% if link.url contains 'http' %}
+                    {% assign domain = '' %}
+                {% else %}
+                    {% assign domain = site.url %}
+                {% endif %}
+            <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" {% endif %}>{{ link.title }}</a></li>
+            {% endfor %}
+        </ul>
+
+        <div class="uk-footer-logo">
+            <a href="{{ "/" | relative_url }}"><img src="{% if image contains 'http' %}{{ image }}{% else %}{{ site.img_assets | absolute_url }}{{ image }}{% endif %}" alt="{{ domain }}" /></a>
+        </div>
+
+    </div>
+</div>

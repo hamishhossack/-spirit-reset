@@ -1,0 +1,53 @@
+{% if site.footer.image %}
+    {% assign image = site.footer.image %}
+{% endif %}
+
+{% if site.footer.align %}
+    {% assign align = site.footer.align %}
+{% else %}
+    {% assign align = "center" %}
+{% endif %}
+
+{% if site.footer.text == "dark" %}
+    {% assign text = "light" %}
+{% else %}
+    {% assign text = "dark" %}
+{% endif %}
+
+<footer id="footer" class="uk-{{ text }}">
+    <div class="uk-section uk-overlay-footer">
+        <div class="uk-container">
+
+            <div class="uk-flex uk-flex-middle uk-grid uk-light uk-margin-large-top" data-uk-grid>
+                <div class="uk-flex-none@s uk-flex-1@m uk-text-meta uk-text-muted uk-link-muted">{{ site.footer.quote }}</div>
+                <div class="uk-flex-1@m uk-text-center uk-footer-logo">
+                    <a href="{{ "/" | relative_url }}"><img src="{% if image contains 'http' %}{{ image }}{% else %}{{ site.img_assets | absolute_url }}{{ image }}{% endif %}" alt="{{ domain }}" /></a>
+                </div>
+                <div class="uk-flex-last@m uk-flex-none@s uk-width-expand@m">
+                    <ul class="uk-subnav uk-flex-center uk-flex-right@m">
+                        {% for link in site.data.navigation_footer %}
+                            {% if link.url contains 'http' %}
+                                {% assign domain = '' %}
+                            {% else %}
+                                {% assign domain = relative_url %}
+                            {% endif %}
+                            {% if link.url == page.url %}
+                                {% assign current = ' class="uk-active"' %}
+                            {% else %}
+                                {% assign current = null %}
+                            {% endif %}
+                            {% if link.title %}
+                                <li{{ current }}><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" {% endif %}>{{ link.title }}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+
+            <div class="uk-flex uk-flex-center uk-grid uk-light uk-margin-xxlarge-top" data-uk-grid>
+                <div class="uk-flex-center uk-text-meta uk-text-muted uk-link-muted uk-text-right copyright">{{ site.footer.copyright }}</div>
+            </div>
+
+        </div>
+    </div>
+</footer>
