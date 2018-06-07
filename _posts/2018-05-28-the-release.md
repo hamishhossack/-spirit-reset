@@ -1,5 +1,6 @@
 ---
 layout: post
+color: '#e72e84'
 subtitle: Cleanser
 host:
     name: Crazy Max

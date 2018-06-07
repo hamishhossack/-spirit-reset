@@ -1,5 +1,6 @@
 ---
 layout: post
+color: '#fdbf2d'
 subtitle: Toner
 host:
     name: Crazy Max

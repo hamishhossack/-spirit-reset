@@ -1,5 +1,6 @@
 ---
 layout: post
+color: '#0f76b4'
 subtitle: Starting Extravaganza
 host:
     name: Crazy Max

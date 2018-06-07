@@ -1,5 +1,6 @@
 ---
 layout: post
+color: '#94ce58'
 subtitle: Soul Searcher
 host:
     name: Crazy Max

@@ -2,12 +2,7 @@ html {
   background: #000;
 }
 
-.uk-logo {
-  img {
-    height: 50%;
-  }
-}
-.uk-footer-logo {
+.uk-logo, .uk-footer-logo {
   img {
     width: 50%;
   }
@@ -15,4 +10,14 @@ html {
 
 .uk-heading-hero-text-shadow {
   text-shadow: 2px 2px 0 #000;
+}
+
+#bus {
+ color: #a03fdc;
+}
+#walking {
+  color: #94ce58;
+}
+#overground {
+ color: #e72e84;
 }

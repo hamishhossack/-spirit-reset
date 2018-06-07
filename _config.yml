@@ -56,8 +56,8 @@ footer:
     image:          icon.svg  # upload your header image to /assets/posts/ folder
     align:          center      #top, center or bottom
     text:           light       # light or dark
-    quote:          <span class="uk-text-lead">“If you have a body You’re a dancer”</span><br>Gabrielle Roth (5Rhythms)
-    copyright:      '&copy; Spirit Dance'
+    quote:          “If you have a body You’re a dancer”<br>Gabrielle Roth (5Rhythms)
+    copyright:      Copyright&copy; 2018. Spirit Reset.
 
 # Post settings
 post:

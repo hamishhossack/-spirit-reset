@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<div class="uk-container uk-container-small">
+<div class="uk-container">
 
     <h2 class="uk-text-center uk-margin-large-bottom">Starts 7:30pm</h2>
 
     {% for post in paginator.posts %}
-    <article class="uk-article uk-grid uk-flex">
-        <h2 class="uk-article-title uk-flex-extend"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+    <article class="uk-article uk-grid uk-child-width-1-2 uk-flex-middle">
+        <h2 class="uk-article-title uk-flex-extend uk-text-right"><a href="{{ post.url | relative_url }}" style="color: {{ post.color }}">{{ post.title | escape }}</a></h2>
         <div class="uk-article-excerpt uk-flex-1">{{ post.excerpt }}</div>
     </article>
     {% endfor %}

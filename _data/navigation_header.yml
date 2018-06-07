@@ -1,15 +1,16 @@
-# Navbar left menu navigation links
-left:
+# Navbar main menu navigation links
+main:
     - title: Home
       url: /
 
-    - title: About
-      url: /about/
-
-# Navbar right menu navigation links
-right:
     - title: Info
       url: /info/
+
+    - title: Space
+      url: /space/
+
+    - title: find
+      url: /find/
 
     - title: Contact
       url: /contact/

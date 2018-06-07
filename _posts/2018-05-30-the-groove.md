@@ -1,5 +1,6 @@
 ---
 layout: post
+color: '#a03fdc'
 subtitle: Rhythm Finder
 host:
     name: Crazy Max

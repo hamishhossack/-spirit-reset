@@ -2,82 +2,42 @@
 layout: default
 ---
 
-<div class="uk-container uk-container-small">
-    {% if page.layout == 'about' and site.author.image %}
+<div class="uk-container">
+
+    <h4 class="uk-text-center uk-margin-large-bottom">Everybody is welcome</h2>
+
+    
+    <article class="uk-article uk-grid uk-child-width-1-2 uk-flex-middle">
         <div class="uk-text-center">
-            <img class="uk-border-circle avatar" src="{% if site.author.image contains 'http' %}{{ site.author.image }}{% else %}{{ site.post_assets | absolute_url }}{{ site.author.image }}{% endif %}">
+            <img src="{{ "assets/img/man-walking.svg" | relative_url }}" width="40%" />
         </div>
-    {% endif %}
-    <article class="uk-article">
-        {{ content }}
+        <div>
+            <h2 class="uk-article-title">When to arrive?</h2>
+            <p class="uk-article-excerpt">Doors open 7:30pm for an 8:00pm start<br>latest you can arrive is 8:15pm<br>We finish at 10:00pm</p>
+        </div>
     </article>
-    <div class="social-networks">
-        <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
-            {% if site.author.twitter %}
-            <div class="uk-first-column">
-                <a href="{{ site.author.twitter }}" data-uk-icon="ratio: 1.4; icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            {% endif %}
-            {% if site.author.facebook %}
-            <div>
-                <a href="{{ site.author.facebook }}" data-uk-icon="ratio: 1.4; icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            {% endif %}
-            {% if site.author.flickr %}
-            <div>
-                <a href="{{ site.author.flickr }}" data-uk-icon="ratio: 1.4; icon: flickr" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            {% endif %}
-            {% if site.author.dribbble %}
-            <div>
-                <a href="{{ site.author.dribbble }}" data-uk-icon="ratio: 1.4; icon: dribbble" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            {% endif %}
-            {% if site.author.instagram %}
-            <div>
-                <a href="{{ site.author.instagram }}" data-uk-icon="ratio: 1.4; icon: instagram" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            {% endif %}
-            {% if site.author.googleplus %}
-            <div>
-                <a href="{{ site.author.googleplus }}" data-uk-icon="ratio: 1.4; icon: google-plus" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            {% endif %}
-            {% if site.author.linkedin %}
-            <div>
-                <a href="{{ site.author.linkedin }}" data-uk-icon="ratio: 1.4; icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            {% endif %}
-            {% if site.author.pinterest %}
-            <div>
-                <a href="{{ site.author.pinterest }}" data-uk-icon="ratio: 1.4; icon: pinterest" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            {% endif %}
-            {% if site.author.vimeo %}
-            <div>
-                <a href="{{ site.author.vimeo }}" data-uk-icon="ratio: 1.4; icon: vimeo" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            {% endif %}
-            {% if site.author.youtube %}
-            <div>
-                <a href="{{ site.author.youtube }}" data-uk-icon="ratio: 1.4; icon: youtube" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            {% endif %}
-            {% if site.author.github %}
-            <div>
-                <a href="{{ site.author.github }}" data-uk-icon="ratio: 1.4; icon: github" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            {% endif %}
-            {% if site.author.email %}
-            <div>
-                <a href="{{ site.author.email }}" data-uk-icon="ratio: 1.4; icon: mail" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            {% endif %}
-            {% if site.author.website %}
-            <div>
-                <a href="{{ site.author.website }}" data-uk-icon="ratio: 1.4; icon: link" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            {% endif %}
+
+    <article class="uk-article uk-grid uk-child-width-1-2 uk-flex-middle">
+        <div class="uk-text-center">
+            <img src="{{ "assets/img/tshirt.svg" | relative_url }}" width="40%" />
         </div>
-    </div>
+        <div>
+            <h2 class="uk-article-title">What to wear?</h2>
+            <p class="uk-article-excerpt">Loose fit, gym or yoga wear is good<br>Be ready to dance and sweat a little<br>Wear what makes you happy and comfy</p>
+        </div>
+    </article>
+
+
+    <article class="uk-article uk-grid uk-child-width-1-2 uk-flex-middle">
+        <div class="uk-text-center">
+            <img src="{{ "assets/img/coinstack.svg" | relative_url }}" width="40%" />
+        </div>
+        <div>
+            <h2 class="uk-article-title">How to pay?</h2>
+            <p class="uk-article-excerpt">Cash on the door is good and entry is £10<br>No card payments yet, but you can pay online in advance here: WWW.LINK>COM</p>
+        </div>
+    </article>
+
+    {% include paginate.html %}
+
 </div>
