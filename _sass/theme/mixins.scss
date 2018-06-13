@@ -21,7 +21,6 @@
     transition: 0.1s ease-in-out;
     -webkit-transition-property: color, background-color;
     transition-property: color, background-color;
-    letter-spacing: 3px;
 }
 @mixin hook-subnav-item(){
     font-size: $subnav-item-font-size;
@@ -49,9 +48,9 @@
 // ========================================================================
 @mixin hook-heading-misc(){
     .subtitle {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         font-family: $navbar-nav-item-font-family;
-        letter-spacing: $ls-xxl;
+        // letter-spacing: $ls-xxl;
     }
 }
 @mixin hook-base-heading(){
@@ -70,9 +69,8 @@
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     position: relative;
-    line-height: $lh-l;
     h1, h2, h3, h4, h4 {
-        line-height: $lh-l;
+        line-height: $lh-s;
     }
     .share {
         a {

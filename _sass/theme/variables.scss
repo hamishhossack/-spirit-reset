@@ -1,19 +1,21 @@
 // Custom variables
 $ls-xxl: 6px;
 $lh-l: 1.8;
+$lh-s: 0.8;
 $sp-l: 90px;
 // UIkit variable overrides
 $global-font-size:          20px !default;
 $global-xxlarge-font-size:  3.425rem !default; // 42px
 $global-xlarge-font-size:   2.8rem !default;     // 32px
 $global-large-font-size:    2.2rem !default;   // 24px
-$global-medium-font-size:   1.825rem !default;  // 20px
+$global-medium-font-size:   1.4rem !default;  // 20px
 $global-small-font-size:    1.275rem !default;
 
 $article-title-font-size-m: $global-large-font-size; 
 $article-title-font-size: $global-large-font-size;
 $article-title-line-height: 1.4;
 $article-meta-font-size: $global-medium-font-size;
+$article-margin-top: 1.5rem;
 $global-muted-color: #666;
 $article-meta-color: #111;
 $inverse-global-color: rgba(255, 255, 255, 0.8);
@@ -24,7 +26,8 @@ $base-body-color: #444;
 $grid-large-gutter-horizontal: 100px;
 
 //$grid-large-gutter-vertical-l: 100px;
-//$base-body-font-weight: 300;
+$base-body-font-weight: 700;
+$base-heading-font-weight: 700;
 
 $global-link-color: $global-primary-background;
 $global-link-hover-color: #000;

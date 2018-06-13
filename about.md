@@ -1,6 +1,6 @@
 ---
 layout: about
-permalink: /info/
+permalink: /about/
 header:
     text: light
 ---

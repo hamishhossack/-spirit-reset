@@ -1,7 +1,8 @@
 # Navbar main menu navigation links
 main:
-    - title: Home
-      url: /
+
+    - title: About
+      url: /about/
 
     - title: Info
       url: /info/
@@ -9,7 +10,7 @@ main:
     - title: Space
       url: /space/
 
-    - title: find
+    - title: Find
       url: /find/
 
     - title: Contact

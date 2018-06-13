@@ -4,6 +4,8 @@ layout: default
 
 <div class="uk-container uk-container-small">
 
+    {% if page.subtitle %}<h1 class="uk-text-small uk-text-center uk-text-uppercase">{{ page.subtitle }}</h1>{% endif %}
+
     <div class="uk-article-content{% if page.center %} uk-text-center{% endif %}">{{ content }}</div>
 
 </div>
