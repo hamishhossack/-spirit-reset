@@ -2,10 +2,9 @@
 layout: page
 center: true
 permalink: /space/
+subtitle: Our beautiful space at core
 header:
     text: light
 ---
-
-#### Our beautiful dance space at core
 
 {% include slideshow.html gallery="space" style="wide" %}

@@ -1,5 +1,7 @@
 html {
   background: #000;
+  font-style: italic;
+  text-transform: uppercase;
 }
 
 .uk-logo, .uk-footer-logo {
@@ -20,4 +22,8 @@ html {
 }
 #overground {
  color: #e72e84;
+}
+
+.number-spacing {
+  letter-spacing: $ls-xxl;
 }
