@@ -2,12 +2,14 @@
 layout: page
 permalink: /find/
 center: true
-subtitle: You can find us at core
+subtitle: Escape the urban hustle<br>and dance free
 header:
     text: light
 ---
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9921.172216158066!2d-0.06186!3d51.562861!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe87e5590455e1fa4!2sCore+Clapton!5e0!3m2!1sen!2suk!4v1528367295265" width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9921.172216158066!2d-0.06186!3d51.562861!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe87e5590455e1fa4!2sCore+Clapton!5e0!3m2!1sen!2suk!4v1528367295265" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+#### YOU CAN FIND US AT CORE
 
 ### OVERGROUND
 5 min walk from Clapton Station

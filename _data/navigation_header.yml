@@ -1,6 +1,9 @@
 # Navbar main menu navigation links
 main:
 
+    - title: Home
+      url: /
+
     - title: About
       url: /about/
 
