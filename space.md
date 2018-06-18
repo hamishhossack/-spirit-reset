@@ -2,9 +2,11 @@
 layout: page
 center: true
 permalink: /space/
-subtitle: Our beautiful space at core
+subtitle: Escape the urban hustle<br>and dance free
 header:
     text: light
 ---
 
 {% include slideshow.html gallery="space" style="wide" %}
+
+#### OUR BEAUTIFUL SPACE AT CORE
