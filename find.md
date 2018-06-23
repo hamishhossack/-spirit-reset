@@ -12,14 +12,14 @@ header:
 #### YOU CAN FIND US AT CORE
 
 ### OVERGROUND
-5 min walk from Clapton Station
+5 min walk from Clapton Station<br>
 7 min walk from rectory Road Station
 
 ### BUS
-106 stops outside core from finny park or Hackney
+106 stops outside core from finny park or Hackney<br>
 73 last stop is three min walk from core
  
 ### WALKING
-8 min walk from Stoke Newington Church St.
+8 min walk from Stoke Newington Church St.<br>
 2 min walk from Clapton high st.
 
