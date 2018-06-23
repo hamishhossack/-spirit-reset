@@ -55,7 +55,7 @@
             <div class="section-hero">
                 <div class="uk-container uk-text-center">
                     <div class="uk-flex-middle uk-grid-medium uk-child-width-expand@s" uk-grid>
-                        <div class="uk-width-1-4@m uk-text-center">
+                        <div class="uk-width-1-5@m uk-text-center">
                             {% if page.lefttitle %}<p class="subtitle uk-text-uppercase">{{ page.lefttitle }}</p>{% endif %}
                             <div class="uk-article-meta font-smoothing">
                                 {% if page.id and page.host.name %}
@@ -79,7 +79,7 @@
                         <div>
                             <img src="{% if image contains 'http' %}{{ image }}{% else %}{{ site.post_assets | absolute_url }}{{ image }}{% endif %}" />
                         </div>
-                        <div class="uk-width-1-4@m uk-text-center">
+                        <div class="uk-width-1-5@m uk-text-center">
                             {% if page.righttitle %}<p class="subtitle uk-text-uppercase uk-margin-bottom">{{ page.righttitle }}</p>{% endif %}
                         </div>
                     </div>

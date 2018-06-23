@@ -6,12 +6,12 @@ layout: default
 
     <h1 class="uk-text-center uk-text-uppercase uk-text-small">{{ page.subtitle }}</h1>
 
-    <article class="uk-article{% if page.center %} uk-text-center{% endif %}">
-        <h4 class="uk-text-uppercase uk-text-small">Join our mailing list <a href="/">here</a></h4>
+    <article class="uk-article{% if page.center %} uk-text-center{% endif %}"></article>
+        <h3 class="uk-text-uppercase uk-margin-large-top">Join our mailing list <a href="/">here</a></h3>
     </article>
 
     {% if page.formspree.email %}
-    <h3 class="uk-margin-large-top uk-text-uppercase">Contact Form</h3>
+    <h3 class="uk-margin-large-top uk-text-uppercase">Contact</h3>
     <form class="uk-form-stacked uk-margin-medium-top" method="POST" action="https://formspree.io/{{ page.formspree.email }}" accept-charset="UTF-8">
         <div class="uk-margin-medium-bottom">
             <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">Name</label>
