@@ -15,22 +15,73 @@ html {
       width: 75%;
     }
   }
+  .uk-text-small {
+    font-size: 0.8rem;
+  }
+  html {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 16px !important;
+  }
+  .mobile-hidden {
+    display: none;
+  }
 }
 
 .uk-heading-hero-text-shadow {
   text-shadow: 2px 2px 0 #000;
 }
 
+p {
+  margin-top: 0;
+}
+
+#you-can-find-us-at-core {
+  margin-bottom: 3rem;
+}
+
 #bus {
  color: #a03fdc;
+ font-size: 1.4rem;
+ margin: 0;
 }
 #walking {
   color: #94ce58;
+  font-size: 1.4rem;
+  margin: 0;
 }
 #overground {
  color: #e72e84;
+ font-size: 1.4rem;
+ margin: 0;
+}
+
+.color-orange {
+  color: rgb(251, 103, 33) !important;
+}
+
+.color-light-pink {
+  color: rgb(222, 37, 202) !important;
+}
+
+.color-yellow {
+  color: rgb(255, 255, 0) !important;
 }
 
 .number-spacing {
   letter-spacing: $ls-xxl;
+}
+
+.slideshow-btn {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.number-spacing {
+  letter-spacing: 0.1rem;
+}
+
+.send-btn {
+  background-color: #09bd9f !important;
+  color: #fff !important;
 }
