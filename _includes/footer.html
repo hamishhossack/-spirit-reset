@@ -26,7 +26,7 @@
                     <a href="{{ "/" | relative_url }}"><img src="{% if image contains 'http' %}{{ image }}{% else %}{{ site.img_assets | absolute_url }}{{ image }}{% endif %}" alt="{{ domain }}" /></a>
                 </div>
                 <div>
-                    <ul class="uk-subnav uk-flex-center uk-flex-left@m">
+                    <ul class="uk-subnav uk-flex-center uk-flex-center@m">
                         {% for link in site.data.navigation_footer %}
                             {% if link.url contains 'http' %}
                                 {% assign domain = '' %}

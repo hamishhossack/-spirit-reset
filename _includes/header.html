@@ -56,7 +56,7 @@
                 <div class="uk-container uk-text-center">
                     <div class="uk-flex-middle uk-grid-medium uk-child-width-expand@s" uk-grid>
                         <div class="uk-width-1-5@m uk-text-center">
-                            {% if page.lefttitle %}<p class="subtitle uk-text-uppercase">{{ page.lefttitle }}</p>{% endif %}
+                            {% if page.lefttitle %}<p class="subtitle uk-text-uppercase uk-text-small">{{ page.lefttitle }}</p>{% endif %}
                             <div class="uk-article-meta font-smoothing">
                                 {% if page.id and page.host.name %}
                                     host {{ page.host.name }}
@@ -76,11 +76,11 @@
                                 {% endif %}
                             </div>
                         </div>
-                        <div>
+                        <div class="uk-flex-">
                             <img src="{% if image contains 'http' %}{{ image }}{% else %}{{ site.post_assets | absolute_url }}{{ image }}{% endif %}" />
                         </div>
                         <div class="uk-width-1-5@m uk-text-center">
-                            {% if page.righttitle %}<p class="subtitle uk-text-uppercase uk-margin-bottom">{{ page.righttitle }}</p>{% endif %}
+                            {% if page.righttitle %}<p class="subtitle uk-text-uppercase uk-text-small uk-margin-bottom">{{ page.righttitle }}</p>{% endif %}
                         </div>
                     </div>
                 </div>
