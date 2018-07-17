@@ -55,7 +55,7 @@
             <div class="section-hero">
                 <div class="uk-container uk-text-center">
                     <div class="uk-flex-middle uk-grid-medium uk-child-width-expand@s" uk-grid>
-                        <div class="uk-width-1-5@m uk-text-center">
+                        <div class="uk-width-1-5@m uk-text-center uk-order-2">
                             {% if page.lefttitle %}<p class="subtitle uk-text-uppercase uk-text-small">{{ page.lefttitle }}</p>{% endif %}
                             <div class="uk-article-meta font-smoothing">
                                 {% if page.id and page.host.name %}
@@ -76,10 +76,11 @@
                                 {% endif %}
                             </div>
                         </div>
-                        <div class="uk-flex-">
+                        <div class="uk-order-3 uk-mobile-order-1">
                             <img src="{% if image contains 'http' %}{{ image }}{% else %}{{ site.post_assets | absolute_url }}{{ image }}{% endif %}" />
                         </div>
-                        <div class="uk-width-1-5@m uk-text-center">
+                        <div class="uk-width-1-5@m uk-text-center uk-order-4">
+                            <div class="sticker uk-text-uppercase">Starts<br>21st August</div>
                             {% if page.righttitle %}<p class="subtitle uk-text-uppercase uk-text-small uk-margin-bottom">{{ page.righttitle }}</p>{% endif %}
                         </div>
                     </div>
