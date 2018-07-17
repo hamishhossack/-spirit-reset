@@ -9,24 +9,17 @@ html {
     width: 50%; 
   }
 }
-@media (max-width: $breakpoint-small) {
-  .uk-logo {
-    img {
-      width: 75%;
-    }
-  }
-  .uk-text-small {
-    font-size: 0.8rem;
-  }
-  html {
-    font-size: 16px;
-  }
-  h1 {
-    font-size: 16px !important;
-  }
-  .mobile-hidden {
-    display: none;
-  }
+
+.uk-order-2 {
+  order: 2;
+}
+
+.uk-order-3 {
+  order: 2;
+}
+
+.uk-order-4 {
+  order: 2;
 }
 
 .uk-heading-hero-text-shadow {
@@ -84,4 +77,50 @@ p {
 .send-btn {
   background-color: #09bd9f !important;
   color: #fff !important;
+}
+
+.sticker {
+  background: #09bd9f;
+  position: absolute;
+  top: 9rem;
+  right: 20%;
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+  align-content: center;
+  display: inline-grid;
+}
+
+@media (max-width: $breakpoint-small) {
+  .uk-logo {
+    img {
+      width: 75%;
+    }
+  }
+  .uk-text-small {
+    font-size: 1rem;
+  }
+  .uk-text-large {
+    font-size: 1.8rem;
+  }
+  html {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 16px !important;
+  }
+  .mobile-hidden {
+    display: none;
+  }
+  .mobile-margin-top {
+    margin-top: 2rem !important;
+  }
+  .uk-mobile-order-1 {
+    order: 1 !important;
+  }
+  .sticker {
+    right: 1rem;
+    top: 5rem;
+  }
 }
