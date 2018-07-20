@@ -6,7 +6,7 @@
 
 # Site title and description
 title:              Spirit Reset - Ecstatic Dance
-description:        An exhillrating dance studio providing exercise & fitness to Clapton and East London
+description:        Weekly ecstatic dance class. Escape the urban hustle and dance free. East London. Hackney. Stoke Newington. Clapton. Inspired by 5Rhythms. All welcome
 
 # Site subpath, e.g. /blog
 baseurl:            ""
@@ -88,6 +88,7 @@ gems:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-gist
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
