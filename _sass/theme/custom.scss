@@ -80,6 +80,7 @@ p {
 }
 
 .sticker {
+  font-family: 'Open Sans';
   background: #09bd9f;
   position: absolute;
   top: 9rem;
@@ -122,5 +123,6 @@ p {
   .sticker {
     right: 1rem;
     top: 5rem;
+    position: relative;
   }
 }
