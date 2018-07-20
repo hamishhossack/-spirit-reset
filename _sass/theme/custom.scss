@@ -101,6 +101,14 @@ p {
   color: #09bd9f !important;
 }
 
+#mc_embed_signup form {
+  padding: 0 !important;
+}
+
+.contact-submit {
+  margin-left: 1rem;
+}
+
 @media (max-width: $breakpoint-small) {
   .uk-logo {
     img {
@@ -136,5 +144,8 @@ p {
     top: 0rem;
     margin: 2rem;
     position: relative;
+  }
+  .contact-submit {
+    margin-left: 0;
   }
 }
