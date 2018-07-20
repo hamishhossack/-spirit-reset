@@ -7,10 +7,26 @@ layout: default
     <h1 class="uk-text-center uk-text-uppercase uk-text-small">{{ page.subtitle }}</h1>
 
     <article class="uk-article{% if page.center %} uk-text-center{% endif %}"></article>
-        <h3 class="uk-article-title uk-text-uppercase uk-text-center"><a href="/">Join our mailing list here</a></h3>
+            <!-- Begin MailChimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+            <div id="mc_embed_signup">
+            <form action="https://spiritreset.us18.list-manage.com/subscribe/post?u=a81dd3a24772eb9eae7771bb2&amp;id=2cc9abcfb6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div style="width: 75%; margin: auto; text-align: center">
+                    <h3 class="uk-article-title uk-text-uppercase uk-text-center blue-title">Join our mailing list here</h3>
+                    <input type="email" value="" name="EMAIL" class="uk-input uk-text-uppercase uk-margin-small-top uk-form-large uk-border-rounded uk-margin-bottom" id="mce-EMAIL" placeholder="email address" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a81dd3a24772eb9eae7771bb2_2cc9abcfb6" tabindex="-1" value=""></div>
+                    <input type="submit" value="Subscribe" name="subscribe" class="uk-button uk-button-primary uk-button uk-border-rounded uk-text-uppercase send-btn">
+                </div>
+            </form>
+            </div>
+
+            <!--End mc_embed_signup-->
+        </h3>
     </article>
 
     {% if page.formspree.email %}
+    <h3 class="uk-article-title uk-text-uppercase uk-text-center uk-margin-large-top blue-title">Contact Us</h3>
     <form class="uk-form-stacked uk-margin-medium-top" method="POST" action="https://formspree.io/{{ page.formspree.email }}" accept-charset="UTF-8">
         <div class="uk-margin-medium-bottom">
             <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">Name</label>
