@@ -93,6 +93,10 @@ p {
   display: inline-grid;
 }
 
+.mobile-visible {
+  display: none;
+}
+
 @media (max-width: $breakpoint-small) {
   .uk-logo {
     img {
@@ -114,6 +118,9 @@ p {
   .mobile-hidden {
     display: none;
   }
+  .mobile-visible {
+    display: block;
+  }
   .mobile-margin-top {
     margin-top: 2rem !important;
   }
@@ -121,8 +128,9 @@ p {
     order: 1 !important;
   }
   .sticker {
-    right: 1rem;
-    top: 5rem;
+    right: 0rem;
+    top: 0rem;
+    margin: 2rem;
     position: relative;
   }
 }

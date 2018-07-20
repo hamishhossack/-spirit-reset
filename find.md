@@ -15,7 +15,7 @@ header:
 5 min walk from Clapton Station<br>
 7 min walk from rectory Road Station
 ### BUS
-<span class="number-spacing">106</span> stops outside core from finny park or Hackney<br>
+<span class="number-spacing">106</span> stops outside core from Finsbury Park or Hackney<br>
 <span class="number-spacing">73</span> last stop is three min walk from core
 ### WALKING
 8 min walk from Stoke Newington Church St.<br>
